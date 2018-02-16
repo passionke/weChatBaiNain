@@ -33,6 +33,6 @@ for frend in group:
                 f.close()
                 time.sleep(5)
                 frend.send_image('keji.jpeg')
-            except x:
+            except Exception:
                 print("opps")
 ```
