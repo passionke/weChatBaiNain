@@ -36,3 +36,17 @@ for frend in group:
             except Exception:
                 print("opps")
 ```
+
+## 使用说明
+
+
+- 本机有python3环境
+- 安装依赖 wxpy
+
+python3 weChatBaiNian.py
+
+## 原理
+
+- 依赖微信中大家使用的备注的功能，只要备注正确，就可以循环的向所有的朋友发送祝福语。
+
+
