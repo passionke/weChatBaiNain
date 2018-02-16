@@ -1,7 +1,7 @@
 # weChatBaiNian
 weChatBaiNain
 
-
+```python
 # -*- coding: utf-8 -*-
 
 from wxpy import *
@@ -35,3 +35,4 @@ for frend in group:
                 frend.send_image('keji.jpeg')
             except x:
                 print("opps")
+```
